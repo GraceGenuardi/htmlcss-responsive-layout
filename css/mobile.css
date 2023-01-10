@@ -1,0 +1,80 @@
+/**MEDIAQUEARY TABLET**/
+
+@media only screen and (max-width: 991px)
+{ 
+    .hamburger {
+        display: block;
+    }  
+
+    .header-nav {
+        display: none;
+    }
+
+    .conteiner_plan {
+        flex-basis: calc(100%/2);
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+   .col_plan{
+        flex-basis: 60%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+ 
+
+
+    .row_plan{
+        flex-basis: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .plan-right {
+        width: 60%;
+        margin-top: 0;
+        margin-left: 100px;
+    }
+
+    .button--purple {
+        margin-left: 130px;
+    }
+
+    
+}
+
+
+
+/**MEDIAQUEARY mobile**/
+
+@media  screen and (max-width: 575px)
+{ 
+    .hero [class^="col"] {
+        flex-basis: 100%;
+    }
+
+    .conteiner_plan {
+        flex-basis: calc(100%/2);
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+   .col_plan{
+        flex-basis: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+ 
+
+
+    .row_plan{
+        flex-basis: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .plan-right {
+        margin-top: 0;
+    }
+    
+}

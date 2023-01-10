@@ -85,20 +85,6 @@ a{
     display: none;
 }
 
-/**MEDIAQUEARY TABLET**/
-
-@media only screen and (max-width: 991px)
-{ 
-    .hamburger {
-        display: block;
-    }  
-
-    .header-nav {
-        display: none;
-    }
-    
-}
-
 /**HERO**/
 
 .card {
@@ -170,16 +156,6 @@ a{
     flex-basis: calc(100%*(2/3));
 }
 
-
-/**MEDIAQUEARY mobile**/
-
-@media only screen and (max-width: 575px)
-{ 
-    .hero [class^="col"] {
-        flex-basis: 100%;
-    }
-    
-}
 
 
 /**parte PLANNING**/
