@@ -1,0 +1,181 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: 'Noto Sans JP', sans-serif;
+
+}
+img {
+    width: 100%;
+}
+
+.conteiner {
+    max-width: 1140px;
+    margin:0 auto;
+    
+}
+
+ul,li,ol {
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: currentColor;
+}
+
+/**ROW**/
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.space-between{
+    justify-content: space-between;
+}
+
+
+/**HEADER**/
+
+.main-header {
+    background-color: #255ee9;
+    padding: 19px 0;
+    color: white;
+    
+}
+
+.main-header nav.row {
+    align-items: center;
+    
+}
+
+
+
+.nav-item a {
+    color: white;
+    line-height: 38px;
+    font-size: 14px;
+    padding: 0 16px;
+    font-family: 'Noto Sans JP', sans-serif;
+
+
+}
+
+/****BUTTONS**/
+.button {
+    border-radius: 20px;
+    
+}
+
+.button--white {
+    background-color: white;
+    border-radius: 20px;
+    
+
+}
+
+.button--white a {
+    color: black;
+}
+
+.hamburger {
+    display: none;
+}
+
+/**MEDIAQUEARY TABLET**/
+
+@media only screen and (max-width: 991px)
+{ 
+    .hamburger {
+        display: block;
+    }  
+
+    .header-nav {
+        display: none;
+    }
+    
+}
+
+/**HERO**/
+
+.card {
+    background-color: rgb(155, 190, 255);
+    padding: 0;
+    border-radius: 20px;
+    margin:10px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    
+}
+
+.card_hero {
+    background-color: rgb(155, 190, 255);
+    padding: 0;
+    border-radius: 20px;
+    margin:10px;
+    display: flex;
+    
+}
+
+.card_phone {
+    width: 50%;
+    padding: 20px;
+}
+.phone {
+    width: 50%;
+}
+
+.phone img {
+    width: 300px;
+    padding: 0;
+}
+
+.title_hero {
+    padding-bottom: 20px;
+    color: #255ee9;
+}
+
+.p_hero {
+    font-size: 13px;
+    padding-bottom: 20px;
+}
+
+.button--blue {
+    background-color: #255ee9;
+    text-align: center;
+    color: white;
+    width: 150px;
+    padding: 10px;
+}
+
+.icon_hero {
+    color: #255ee9;
+    width: 100%;
+    font-size: 100px;
+    text-align: center;
+    
+}
+
+/**COLUMN**/
+
+.col-3 {
+    flex-basis: calc(100%/3);
+}
+
+.col-2 {
+    flex-basis: calc(100%*(2/3));
+}
+
+
+/**MEDIAQUEARY mobile**/
+
+@media only screen and (max-width: 575px)
+{ 
+    .hero [class^="col"] {
+        flex-basis: 100%;
+    }
+    
+}
