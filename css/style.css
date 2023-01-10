@@ -196,7 +196,6 @@ a{
 
 .col_plan{
     width: 30%;
-    border: 2px dashed red;
     align-items: center;
     padding: 20px;
     
@@ -221,6 +220,49 @@ a{
     color: white;
     font-size: 13px;
     padding-bottom: 50px;
+}
+
+/****col right***/
+
+.plan-right {
+    background-color: white;
+    border-radius: 40px;
+    color: black;
+    padding: 20px;
+    text-align: center;
+    line-height: 30px;
+    margin-top: 200px;
+    width: 400px;
+}
+
+.img_plan_right {
+    width: 250px;
+    padding: 20px;
+    padding-left: 100px;
+}
+
+.title_plan_right {
+    color: black;
+    padding: 20px;
+    
+}
+
+.p_plan-right {
+    padding: 20px;
+}
+
+.button--purple {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #9792E4;
+    text-align: center;
+    margin-left: 170px;
+    
+}
+
+.button--purple i {
+    padding-top: 15px;
 }
 
 
