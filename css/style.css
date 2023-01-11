@@ -378,3 +378,57 @@ a{
     margin-left: 20px;
     padding: 10px;
 }
+
+
+
+/***ABOUT US RULES***/
+
+.conteiner_about-us{
+    padding: 70px;
+    
+
+
+}
+
+
+.row_about-us {
+    display: flex;
+    flex-direction: row;
+}
+
+.text_about-us {
+    width: 50%;
+    margin: auto;
+    line-height: 40px;
+    padding-left: 100px;
+}
+
+.text_about-us h2 {
+    color: #9792E4;
+    padding-bottom: 70px;
+    font-size: 60px;
+}
+
+
+.p_about-us {
+    padding-bottom: 40px;
+}
+
+.card_about-us{
+    text-align: left;
+    margin-top: 30px;
+    width: 20%;
+    
+    margin-right: 100px;
+
+}
+
+.card_about-us h3 {
+    color: #9792E4;
+    font-size: 25px;
+
+}
+
+.linkedin {
+    width: 60%;
+}
