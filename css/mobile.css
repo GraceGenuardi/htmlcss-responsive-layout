@@ -154,3 +154,71 @@
 
     }
 }
+
+
+/****BENEFITS MEDIAQUERY**/
+
+
+/***TABLET***/
+
+@media screen and (max-width: 991px){
+
+
+    .conteiner_benefits{
+        flex-basis: calc(100%/3);
+        /*display: flex;
+        flex-wrap: wrap;*/
+        margin-top: 60px;
+    }
+
+   .col_ben{
+        flex-basis: 100%;
+        display: flex;
+        /*flex-wrap: wrap;*/
+    }
+ 
+
+
+    /**.row_benefits{
+        flex-basis: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }**/
+
+
+    .card_ben {
+        flex-basis: 80%;
+    }
+
+}    
+
+/***MOBILE**/
+
+@media  screen and (max-width: 575px){
+    .conteiner_benefits{
+        flex-basis: calc(100%/2);
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 60px;
+    }
+
+   .col_ben{
+        flex-basis: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+ 
+
+
+    .row_benefits{
+        flex-basis: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+
+    .card_ben {
+        flex-basis: 100%;
+    }
+
+}
