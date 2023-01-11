@@ -96,3 +96,61 @@
     }
     
 }
+
+
+/****TESTIMONIALS MEDIAQUERY**/
+
+/***TABLET***/
+
+@media screen and (max-width: 991px){
+
+    .testimonials {
+        flex-basis: calc(100%/3);
+        margin: 0 auto;
+        
+    }
+
+
+    .card_testimonials {
+        flex-basis: calc(100%/3);
+        margin-bottom: 20px;
+        margin-left: 150px;
+
+
+    }
+
+    .text_card_testimonials p, h3 {
+        margin: 0 auto;
+        font-size: 15px;
+        line-height: 30px;
+    }
+
+
+
+}
+
+
+/***MOBILE**/
+
+@media  screen and (max-width: 575px){
+
+    .text_card_testimonials p, h3 {
+        margin: 0 auto;
+        font-size: 10px;
+        line-height: 18px;
+    }
+
+    .testimonials {
+        flex-basis: calc(100%/3);
+        margin: 0 auto;
+        
+    }
+
+    .card_testimonials {
+        flex-basis: calc(100%/3);
+        margin-bottom: 20px;
+        margin-left: 80px;
+
+
+    }
+}
