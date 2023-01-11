@@ -10,6 +10,14 @@
         display: none;
     }
 
+    .phone img {
+        width: 300px;
+        display: block;
+        margin: 0 auto;
+    }
+
+
+
     .conteiner_plan {
         flex-basis: calc(100%/2);
         display: flex;
@@ -46,13 +54,16 @@
 
 
 
-/**MEDIAQUEARY mobile**/
+/**MEDIAQUEARY MOBILE**/
 
 @media  screen and (max-width: 575px)
 { 
     .hero [class^="col"] {
         flex-basis: 100%;
     }
+    
+    
+
 
     .conteiner_plan {
         flex-basis: calc(100%/2);

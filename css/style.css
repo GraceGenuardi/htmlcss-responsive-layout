@@ -117,7 +117,8 @@ a{
 
 .phone img {
     width: 300px;
-    padding: 0;
+    display: block;
+    margin: 0 auto;
 }
 
 .title_hero {
@@ -173,7 +174,7 @@ a{
 .col_plan{
     width: 30%;
     align-items: center;
-    padding: 20px;
+    padding: 30px;
     
 }
 
@@ -196,6 +197,7 @@ a{
     color: white;
     font-size: 13px;
     padding-bottom: 50px;
+    line-height: 23px;
 }
 
 /****col right***/
