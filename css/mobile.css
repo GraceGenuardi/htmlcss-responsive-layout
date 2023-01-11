@@ -45,6 +45,12 @@
         margin-left: 100px;
     }
 
+    .img_plan_right {
+        width: 60%;
+        padding: 10px;
+        padding-left: 60px;
+    }
+
     .button--purple {
         margin-left: 130px;
     }

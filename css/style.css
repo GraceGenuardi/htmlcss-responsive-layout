@@ -204,7 +204,7 @@ a{
 
 .plan-right {
     background-color: white;
-    border-radius: 40px;
+    border-radius: 50px;
     color: black;
     padding: 20px;
     text-align: center;
@@ -214,8 +214,8 @@ a{
 }
 
 .img_plan_right {
-    width: 250px;
-    padding: 20px;
+    width: 60%;
+    padding: 10px;
     padding-left: 100px;
 }
 
@@ -244,4 +244,80 @@ a{
 }
 
 
+/****TESTIMONIALS RULES**/
 
+.testimonials {
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    text-align: center;
+    
+}
+
+.title_testimonials {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #9792E4;
+    font-size: 50px;
+}
+
+
+
+
+.conteiner_testimonials {
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 auto;
+    
+}
+
+
+.card_testimonials {
+    background-color: #9792E4;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-left: 150px;
+    border-radius: 20px;
+    text-align: center;
+    display: flex;
+    width: 80%;
+    height: 200px;
+    padding: 20px;
+}
+
+.img_testimonials {
+    background-image: url(../img/testimonial1.jpg) ;
+    width: 200px;
+    height: 200px;
+    background-size:cover;
+    border-radius: 50%;
+    margin-right: 50px;
+    
+}
+
+.img_testimonials_2 {
+    background-image: url(../img/testimonial2.jpg) ;
+    width: 200px;
+    height: 200px;
+    background-size: cover;
+    border-radius: 50%;
+    margin-right: 50px;
+    
+}
+
+.img_testimonials_3 {
+    background-image: url(../img/testimonial3.jpg) ;
+    width: 200px;
+    height: 200px;
+    background-size: cover;
+    border-radius: 50%;
+    margin-right: 50px;
+    
+}
+
+.text_card_testimonials {
+    background-color: aqua;
+    text-align: left;
+    width: 60%;
+    align-items: flex-end;
+}
