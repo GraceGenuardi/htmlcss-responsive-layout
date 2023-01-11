@@ -14,6 +14,7 @@
         flex-basis: calc(100%/2);
         display: flex;
         flex-wrap: wrap;
+        margin-top: 60px;
     }
 
    .col_plan{
