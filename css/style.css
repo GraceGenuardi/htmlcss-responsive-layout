@@ -254,7 +254,7 @@ a{
     
 }
 
-.title_testimonials {
+.h2_testimonials {
     margin-top: 20px;
     margin-bottom: 20px;
     color: #9792E4;
@@ -262,7 +262,9 @@ a{
 }
 
 
-
+.title_testimonials {
+    margin-bottom: 40px;
+}
 
 .conteiner_testimonials {
     justify-content: center;
@@ -276,11 +278,11 @@ a{
     background-color: #9792E4;
     margin-bottom: 20px;
     margin-top: 20px;
-    margin-left: 150px;
+    margin-left: 400px;
     border-radius: 20px;
     text-align: center;
     display: flex;
-    width: 80%;
+    width: 60%;
     height: 200px;
     padding: 20px;
 }
@@ -316,8 +318,13 @@ a{
 }
 
 .text_card_testimonials {
-    background-color: aqua;
+    color: white;
+    line-height: 40px;
     text-align: left;
     width: 60%;
     align-items: flex-end;
+}
+
+.text_card_testimonials p, h3 {
+    margin: 20px;
 }
