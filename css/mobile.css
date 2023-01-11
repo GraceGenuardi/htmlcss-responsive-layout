@@ -222,3 +222,33 @@
     }
 
 }
+
+
+
+/****ABOUT US MEDIAQUERY***/
+/***MOBILE**/
+
+@media  screen and (max-width: 575px){
+
+
+    .conteiner_about-us{
+        display: flex;
+        
+        
+    }
+
+    .card_about-us{
+        
+        flex-basis: 100%;
+        
+        
+    }
+
+    .text_about-us {
+        flex-basis: 100%;
+    }
+    
+
+
+
+}

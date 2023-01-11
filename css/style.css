@@ -292,6 +292,7 @@ a{
     width: 200px;
     height: 200px;
     background-size:cover;
+    object-fit: cover;
     border-radius: 50%;
     margin-right: 50px;
     
@@ -304,6 +305,7 @@ a{
     background-size: cover;
     border-radius: 50%;
     margin-right: 50px;
+    object-fit: cover;
     
 }
 
@@ -314,6 +316,7 @@ a{
     background-size: cover;
     border-radius: 50%;
     margin-right: 50px;
+    object-fit: cover;
     
 }
 
@@ -397,7 +400,7 @@ a{
 }
 
 .text_about-us {
-    width: 50%;
+    flex-basis: 50%;
     margin: auto;
     line-height: 40px;
     padding-left: 100px;
@@ -417,7 +420,7 @@ a{
 .card_about-us{
     text-align: left;
     margin-top: 30px;
-    width: 20%;
+    flex-basis: 20%;
     
     margin-right: 100px;
 
@@ -431,4 +434,58 @@ a{
 
 .linkedin {
     width: 60%;
+}
+
+
+/****trialrules****/
+
+.conteiner-trial{
+    background-color: #9792E4;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+
+.trial {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.conteiner-trial span{
+    color:#CBC9F1 ;
+    font-size: 20px;
+    
+
+}
+
+.trial_h2 {
+    padding-top: 30px;
+    padding-bottom: 20px;
+    font-size: 40px;
+
+}
+
+.trial h1 {
+    font-size: 80px;
+    color: #FDC15F;
+    padding-bottom: 20px;
+}
+
+.trial p {
+    font-size: 15px;
+    line-height: 30px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.button-trial {
+    background-color: white;
+    color:#9792E4;
+    border-radius: 30px;
+    margin: 0 auto;
+    padding: 20px;
+    width: 200px;
+    
 }
